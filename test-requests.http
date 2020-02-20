@@ -1,0 +1,9 @@
+### Create user
+
+POST http://localhost:7071/api/users
+Content-Type: application/json
+
+{ "displayName": "The unwieldy gamer", "email": "TheUnwieldyGamer@gmail.com"}
+
+### Get all users
+GET http://localhost:7071/api/users
